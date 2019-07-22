@@ -4,10 +4,8 @@ using System.Text;
 
 namespace RomanNumbers
 {
-    interface IConvertRomanNumbers
+    public interface IConvertFromArabicToRoman
     {
-        string ConvertFromRomanToArabic(string romanNumber);
-
-        string ConvertFromArabicToRoman(string arabicNumber);
+        string ConvertFromArabicToRoman(int arabicNumber);
     }
 }
